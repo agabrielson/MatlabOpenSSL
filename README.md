@@ -21,9 +21,9 @@ When running mexEVP_Encrypt & mexEVP_Decrypt I would suggest doing your due dili
 ## Inventory ##
 
 Function & Code Included
+
 	example.m	Provides a few examples of how this code works
 	buildMex.m	Builds the code needed to run this toolbox
-
 	mexRandom	Generate a Random key and or IV
 	mexEVP_Encrypt	Encrypt Data
 	mexEVP_Decrypt	Decrypt Data
