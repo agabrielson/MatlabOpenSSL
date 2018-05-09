@@ -22,9 +22,9 @@ With all of that said, what example could possible be complete without output:
 
 ### Output ###
 
-No encrypt: Hello World? - this is a test of AES! of which I'm curious to see if it really is working.
-Encrypted: ;|?|??`A ??)?????#?'??7E??/
+* No encrypt: Hello World? - this is a test of AES! of which I'm curious to see if it really is working.
+* Encrypted: ;|?|??`A ??)?????#?'??7E??/
 Hv???G????b0&?/i???Y????????O??R?l?v?W??xT?ɡzp?????<?Y?aU
-Decrypted: Hello World? - this is a test of AES! of which I'm curious to see if it really is working.
+* Decrypted: Hello World? - this is a test of AES! of which I'm curious to see if it really is working.
 
 
