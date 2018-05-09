@@ -14,6 +14,8 @@ The buildMex script was provided to help build source if needed. Please verify y
 
 This code was built with OpenSSL 0.9.8l for windows (http://www.slproweb.com/products/Win32OpenSSL.html) & UNIX.  If you modify your installation path you will need to modify buildMex so this project will build on your platform.  With that said, this is dependent on OpenSSL, and you must install it if you want to use it.
 
+This code was most recently tested with OpenSSL 1.0.2o for Mac OS. Matlab version R2015a. OS X version 10.13.4. The code was written awhile ago and may no longer work with all the originally tested compilers. I have heard the Microsoft compiler may throw a typedef warning or error. I do not currently have the Windows & Linux resources required test and fix if the issue actually exists.
+
 ## Running Instructions ##
 
 When running mexEVP_Encrypt & mexEVP_Decrypt I would suggest doing your due diligence in terms of picking out a key, iv, and a cipher.  The choices I have made for defaults are not ideal.  If you look at the encrypt & decrypt functions they should support any cipher that is supported by OpenSSL and can be looked up by name, I have included a partial list but if you want to run another one I would suggest you look through the documentation.  I have found OpenSSL book helpful, it would probably be a worthwhile read if this code interests you.  If you need help determining what mode to run a cipher in I would suggest looking at the Wikipedia page as a good start: http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation
