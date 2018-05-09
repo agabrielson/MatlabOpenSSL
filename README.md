@@ -12,7 +12,7 @@ The basic data type this code works with is a uint8.  Everything passed in and o
 
 The buildMex script was provided to help build source if needed. Please verify your paths match the ones in buildMex, if they do not - change buildMex.
 
-This code was built with OpenSSL 0.9.8l for windows (http://www.slproweb.com/products/Win32OpenSSL.html) & UNIX.  If you modify your installation path you will need to modify buildMex so this project will build on your platform.  With that said, this is dependent on OpenSSL, and you must install it if you want to use it.
+This code was originally built with OpenSSL 0.9.8l for windows (http://www.slproweb.com/products/Win32OpenSSL.html) & UNIX.  If you modify your installation path you will need to modify buildMex so this project will build on your platform.  With that said, this is dependent on OpenSSL, and you must install it if you want to use it.
 
 This code was most recently tested with OpenSSL 1.0.2o for Mac OS. Matlab version R2015a. OS X version 10.13.4. The code was written awhile ago and may no longer work with all the originally tested compilers. I have heard the Microsoft compiler may throw a typedef warning or error. I do not currently have the Windows & Linux resources required test and fix if the issue actually exists.
 
